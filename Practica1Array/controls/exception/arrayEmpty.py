@@ -1,0 +1,2 @@
+class ArrayEmpty(Exception):
+    pass

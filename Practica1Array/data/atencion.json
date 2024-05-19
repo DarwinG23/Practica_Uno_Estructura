@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "dia": "05/17/2024",
+        "tiempo": "2:30",
+        "calificacion": "Bueno",
+        "motivo": "Consulta"
+    },
+    {
+        "id": 2,
+        "dia": "05/17/2024",
+        "tiempo": "2:30",
+        "calificacion": "Bueno",
+        "motivo": "Consulta"
+    },
+    {
+        "id": 3,
+        "dia": "05/17/2024",
+        "tiempo": "2:30",
+        "calificacion": "Bueno",
+        "motivo": "Consulta"
+    },
+    {
+        "id": 4,
+        "dia": "05/17/2024",
+        "tiempo": "2:30",
+        "calificacion": "Bueno",
+        "motivo": "Consulta"
+    }
+]

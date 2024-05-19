@@ -1,0 +1,28 @@
+{% extends "menu.html" %}
+{% block content %}
+<div class="text-center">
+    <h1 class="display-4">SERVIDORES PUBLICOS</h1>
+</div>
+<div class="row">
+    <table id="tabla" class="table text-black">
+        <thead>
+            <th>Nro</th>
+            <th>Servidor Publico</th>
+            <th>dni</th>
+            <th>Actions</th>
+        </thead>
+        <tbody>
+            {% for item in lista %}
+                <tr>
+                    <td>{{item.id}}</td>
+                    <td>{{item.nombre}}</td>
+                    <td>{{item.cedula}}</td>
+                    <td><a href="/servidores/editar/{{item.id}}" class="btn btn-info">Modificar</a></td>
+                    <td><a href="/servidores/atenciones/{{item.id}}" class="btn btn-info">Atenciones</a></td>
+                    <td><a href="/servidores/eliminar/{{item.id}}" class="btn btn-info">Eliminar</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

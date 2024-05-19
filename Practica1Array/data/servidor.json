@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alexander",
+        "cedula": "123456789",
+        "atenciones": [
+            {
+                "id": 1,
+                "dia": "05/17/2024",
+                "tiempo": "1:15",
+                "calificacion": "Regular",
+                "motivo": "Tratamiento"
+            },
+            {
+                "id": 2,
+                "dia": "05/17/2024",
+                "tiempo": "1:50",
+                "calificacion": "Bueno",
+                "motivo": "Solicitud"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Juan",
+        "cedula": "123456789",
+        "atenciones": [
+            {
+                "id": 3,
+                "dia": "05/17/2024",
+                "tiempo": "2:15",
+                "calificacion": "Excelente",
+                "motivo": "Informacion"
+            },
+            {
+                "id": 4,
+                "dia": "05/17/2024",
+                "tiempo": "1:15",
+                "calificacion": "Normal",
+                "motivo": "Solicitud"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Francis",
+        "cedula": "123456789",
+        "atenciones": [
+            {
+                "id": 5,
+                "dia": "05/17/2024",
+                "tiempo": "1:15",
+                "calificacion": "Malo",
+                "motivo": "Informacion"
+            },
+            {
+                "id": 6,
+                "dia": "05/17/2024",
+                "tiempo": "1:15",
+                "calificacion": "Normal",
+                "motivo": "Solicitud"
+            }
+        ]
+    }
+]
